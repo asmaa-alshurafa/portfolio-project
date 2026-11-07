@@ -28,6 +28,7 @@ fun MainScreen() {
             context.startActivity(Intent(context, AboutActivity::class.java))
         }) {
             Text(text = "Go to About")
+            Text(text = "Asmaa AlShurafa !")
         }
     }
 }
